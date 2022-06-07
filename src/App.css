@@ -21,19 +21,12 @@
   align-items: center;
   display: flex;
 }
-.team1 img{
+.team1 img {
   -moz-transform: scale(-1, 1);
   -webkit-transform: scale(-1, 1);
   -o-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
-}
-.team1 img:hover{
-  -moz-transform: scale(-1, 1);
-  /* -webkit-transform: scale(-1, 1);
-  -o-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1); */
-  /* transform: scale(-1, 1); */
 }
 img:hover {
   transform: scale(2);
