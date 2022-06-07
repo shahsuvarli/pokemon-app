@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.board {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid black;
+  margin: 35px;
+  height: 310px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+.cards {
+  width: 600px;
+  height: 290px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* background-color: red; */
+  border-radius: 5px;
+}
+.team1 img {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.team1 img:hover {
+  transform: scale(2);
+  cursor: pointer;
+}
+img:hover {
+  transform: scale(2);
+  cursor: pointer;
+}
+img {
+  transition: transform 0.2s;
+}
+button {
+  width: 100px;
+  height: 50px;
+  margin: 20px;
+  border: none;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(30, 143, 255, 0.63);
+}
+.character {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* border-bottom: 1px  black; */
+  /* width: 600px; */
+}
+.character-detail {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  margin: 10px;
+}
+.player-detail {
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aliceblue;
+  margin: 5px;
+  height: 230px;
+}
